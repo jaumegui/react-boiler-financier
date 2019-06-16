@@ -8,6 +8,7 @@ export default function scrap(date) {
     async: false,
     success: function(data) {
       const page = document.createElement('page');
+      console.log(data);
       page.innerHTML = data;
       const summary = page.querySelectorAll('.summary');
       const hoursNodes = page.querySelectorAll('.match-tv-time');

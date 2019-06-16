@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div className="application">
         <Calendar onChange={this.handleClick} format="DD/MM/YYYY" showDateInput={false} />
-        <div>{ matchComponent }</div>
+        <div className="match-list">{ matchComponent }</div>
       </div>
     );
   }

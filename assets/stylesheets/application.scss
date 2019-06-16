@@ -2,21 +2,39 @@ body {
   font-family: Helvetica;
 }
 
+.match-list {
+  width: 600px;
+}
+
 .application {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.card-derscritpion {
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
 }

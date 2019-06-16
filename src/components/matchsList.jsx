@@ -34,7 +34,7 @@ class MatchsList extends Component {
             name={match.name}
             hour={match.hour}
             channel={match.channel}
-                  />
+          />
           );
         })}
       </div>
